@@ -155,6 +155,8 @@ npm install
 # Run development server
 npm run dev
 
+```
+
 🤝 Contribution
 
 This project is currently under active development.
@@ -172,5 +174,3 @@ For questions, collaboration, or deployment discussions, please contact the proj
 Built to modernize hospital operations and improve healthcare delivery.
 
 
-
----
