@@ -147,7 +147,7 @@ Each role has strictly controlled permissions to ensure **security and data inte
 
 ```bash
 # Clone repository
-git clone https://github.com/your-username/hospital-management-system.git
+git clone https://github.com/bedru-mekiyu/Digital-Hospital.git
 
 # Install dependencies
 npm install
@@ -174,22 +174,3 @@ Built to modernize hospital operations and improve healthcare delivery.
 
 
 ---
-
-## Why this README is good
-- Modern and professional
-- Clean Markdown rendering on GitHub
-- Not over-technical
-- Easy to extend later
-- Suitable for real-world and academic use
-
----
-
-### Next logical step
-If you want, next I can:
-- Customize this README for **public vs private repo**
-- Add **architecture diagram section**
-- Add **API documentation structure**
-- Add **screenshots placeholders**
-- Write **CONTRIBUTING.md** or **PROJECT ROADMAP**
-
-Just tell me what to do next.
