@@ -1,4 +1,3 @@
-import React from "react";
 import { FaLocationArrow, FaPhone, FaSquareInstagram } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { FaFacebookSquare } from "react-icons/fa";

@@ -1,4 +1,3 @@
-import React from "react";
 import { IoLocation } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";

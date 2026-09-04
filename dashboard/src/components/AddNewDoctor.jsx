@@ -1,11 +1,11 @@
-import React, { useContext, useState } from "react";
+import { useContext, useState } from "react";
 import { Navigate, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { Context } from "../main";
 import axios from "axios";
 
 const AddNewDoctor = () => {
-  const { isAuthenticated, setIsAuthenticated } = useContext(Context);
+  const { isAuthenticated } = useContext(Context);
 
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");

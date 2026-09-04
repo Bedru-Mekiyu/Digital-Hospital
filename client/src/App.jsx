@@ -1,4 +1,5 @@
-import React, { useContext, useEffect } from "react";
+import { useContext, useEffect } from "react";
+import axios from "axios";
 import { Routes, Route } from "react-router-dom";
 import Home from "./page/Home";
 import PageNotFound from "./page/PageNotFound";
@@ -46,13 +47,13 @@ const App = () => {
         );
         setIsAuth(true);
         setUser(response.data.user);
-      } catch (error) {
+      } catch {
         setIsAuth(false);
         setUser({});
       }
     };
     fetchUser();
-  }, []);
+  }, [setIsAuth, setUser]);
 
   return (
     <div>

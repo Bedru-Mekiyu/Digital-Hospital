@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import { useContext, useState } from "react";
 import { Context } from "../main";
 import { useNavigate } from "react-router-dom";
 import { TiHome } from "react-icons/ti";

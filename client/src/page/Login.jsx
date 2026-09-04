@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import { useContext, useState } from "react";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
@@ -75,7 +75,7 @@ const Login = () => {
               </div>
 
               <div className="flex justify-between px-4 items-center mb-4">
-                <p className="mb-0">Don't have an Account?</p>
+                <p className="mb-0">Don&apos;t have an Account?</p>
                 <Link to="/register" className="text-blue-600 hover:underline">
                   Register Now
                 </Link>
