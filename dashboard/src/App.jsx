@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import { useContext, useEffect } from "react";
 import { Route, Routes, Navigate } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import Dashboard from "./components/Dashboard";
@@ -25,7 +25,7 @@ const App = () => {
         );
         setIsAuthenticated(true);
         setAdmin(response?.data?.user);
-      } catch (error) {
+      } catch {
         setIsAuthenticated(false);
         setAdmin({});
       }
